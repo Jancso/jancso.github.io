@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color: #1d4078;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+footer {
+  background-color: #1d4078;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+p {
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
