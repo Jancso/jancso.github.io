@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Anna Jancso</title>
     <meta name="description" content="Home website of Anna Jancso">
     <meta name="author" content="Anna Jancso">
@@ -21,84 +20,55 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <nav class="navbar navbar-custom navbar-expand-sm sticky-top navbar-dark">
+<div id="nav"></div>
 
-        <a class="navbar-brand ml-5" href="index.html">Anna Jancso</a>
+<div id="main" class="container">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="row mb-5 p-5">
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item">
-              <a class="nav-link" href="cv.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-          </ul>
-        </div>
-
-    </nav>
-
-    <header>
-
-        <div class="parallax-window img-fluid" data-parallax="scroll" data-image-src="img/glacier.jpg"></div>
-
-    </header>
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 text-center pt-5">
-           <img src="img/profile.png" class="p-3 rounded-circle mx-auto d-block img-fluid" alt="profile image">
-           <h2 class="font-weight-light" >Anna Jancso</h2>
-           <h6 class="font-weight-light text-secondary" >MSc Student in CS</h6>
-           <h6 class="font-weight-light text-secondary pb-2" >Research Assistant</h6>
-           <h6 class="font-weight-light text-secondary pb-4" >University of Zurich</h6>
-           <a href="https://github.com/jancso">
-             <img class="img-small img-fluid" src="img/github.png" alt="github icon">
-           </a>
+        <div class="col-md-6 text-center pt-3">
+            <img src="img/profile.png" class="p-3 rounded-circle mx-auto d-block img-fluid" alt="profile image">
+            <h2 class="font-weight-light">Anna Jancso</h2>
+            <h6 class="font-weight-light text-secondary">MSc Student in CS</h6>
+            <h6 class="font-weight-light text-secondary pb-2">Research Assistant</h6>
+            <h6 class="font-weight-light text-secondary pb-4">University of Zurich</h6>
+            <a href="https://github.com/jancso">
+                <img class="img-small img-fluid" src="img/github.png" alt="github icon">
+            </a>
         </div>
 
         <div class="col-md-6 pt-5 text-justify">
-          <h5>Welcome to my website!</h5>
-          <p>
-            I'm a first-year master's student in Informatics at the
-            <a href="https://www.uzh.ch/en.html">University of Zurich</a>.
-            I received my bachelor's degree in Computational Linguistics and
-            General Linguistics in January 2018
-            from the University of Zurich.
-          </p>
+            <h5>Welcome to my website!</h5>
+            <p>
+                I'm a second-year master's student in Informatics at the
+                <a href="https://www.uzh.ch/en.html">University of Zurich</a>.
+                I received my bachelor's degree in Computational Linguistics and
+                General Linguistics in January 2018
+                from the University of Zurich.
+            </p>
 
-          <p>
-            Besides my studies, I'm working part-time as a student (research)
-            assistant for the
-            <a href="https://www.acqdiv.uzh.ch/en.html">ACQDIV</a> and the
-            <a href="https://www.ifi.uzh.ch/en/seal.html">s.e.a.l</a> group.
-          </p>
+            <p>
+                Besides my studies, I'm working part-time as a student (research)
+                assistant for the
+                <a href="https://www.acqdiv.uzh.ch/en.html">ACQDIV</a> and the
+                <a href="https://www.ifi.uzh.ch/en/seal.html">s.e.a.l.</a> group.
+            </p>
         </div>
-      </div>
     </div>
 
-    <footer class="container-fluid mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 pt-4 text-center font-weight-light">
-            <p>© Developed by: Anna Jancso</p>
-            <p>Last updated: July 2019</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+  <div id="footer"></div>
+</div>
 
-  </body>
+<script>
+  $(function () {
+        $("#footer").load("template/footer.html");
+        $("#nav").load("template/nav.html");
+  });
+</script>
+
+</body>
 </html>

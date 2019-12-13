@@ -1,7 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Website Anna Jancso</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,98 +18,77 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <nav class="navbar navbar-custom navbar-expand-sm sticky-top navbar-dark">
+<div id="nav"></div>
 
-        <a class="navbar-brand ml-5" href="index.html">Anna Jancso</a>
+<div class="container p-3 text-left">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item">
-              <a class="nav-link" href="cv.html">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-          </ul>
-        </div>
-
-    </nav>
-
-    <header>
-
-        <div class="parallax-window img-fluid" data-parallax="scroll" data-image-src="img/snow.jpg"></div>
-
-    </header>
-
-    <div class="container p-3 text-left">
-
-      <div class="row">
-
-        <div class="col-lg-4 mt-3">
-          <div class="card h-100">
-            <img src="img/acqdivgraph.png" class="card-img-top" alt="...">
-            <h5 class="card-header bg-light">ACQDIV</h5>
-            <div class="card-body">
-              <p class="card-text text-justify">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-primary">Repository</a>
+    <div class="row mb-5 p-5">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>Projects</h5>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 mt-3">
-          <div class="card h-100">
-            <img src="img/gitlab-pipeline.png" class="card-img-top" alt="CI image">
-            <img src="img/gitlab-yaml.png" class="card-img-top" alt="CI image">
-            <h5 class="card-header bg-light">CI Configuration Analytics</h5>
-            <div class="card-body">
-              <p class="card-text text-justify">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-primary">Repository</a>
+            <hr/>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card h-100">
+                        <img src="img/acqdivgraph.png" class="card-img-top" alt="...">
+                        <h5 class="card-header bg-light">ACQDIV</h5>
+                        <div class="card-body">
+                            <p class="card-text text-justify">
+                            </p>
+                            <a href="https://github.com/acqdiv/acqdiv" class="btn btn-primary">Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card h-100">
+                        <img src="img/gitlab-pipeline.png" class="card-img-top" alt="CI image">
+                        <img src="img/gitlab-yaml.png" class="card-img-top" alt="CI image">
+                        <h5 class="card-header bg-light">CD Linter</h5>
+                        <div class="card-body">
+                            <p class="card-text text-justify">
+                            </p>
+                            <a href="https://bitbucket.org/sealuzh/cd-linter/" class="btn btn-primary">Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card h-100">
+                        <img src="img/ontogene.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-header bg-light">Neural biomedical NER</h5>
+                        <div class="card-body">
+                            <p class="card-text text-justify">
+                            </p>
+                            <a href="#" class="btn btn-primary">Repository</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
         </div>
-
-        <div class="col-lg-4 mt-3">
-          <div class="card h-100">
-            <img src="img/ontogene.jpg" class="card-img-top" alt="...">
-            <h5 class="card-header bg-light">OntoGene</h5>
-            <div class="card-body">
-              <p class="card-text text-justify">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <a href="#" class="btn btn-primary">Repository</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
 
-    <footer class="container-fluid mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 pt-4 text-center font-weight-light">
-            <p>© Developed by: Anna Jancso</p>
-            <p>Last updated: July 2019</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
 
-  </body>
+</div>
+
+<script>
+    $(function () {
+        $("#footer").load("template/footer.html");
+        $("#nav").load("template/nav.html");
+    });
+</script>
+
+</body>
 </html>
