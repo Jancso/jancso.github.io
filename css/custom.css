@@ -55,6 +55,23 @@ li {
   color: #666666;
 }
 
+.normal-list {
+    list-style: none; /* Remove default bullets */
+}
+
+.normal-list li::before {
+    content: "\25AA";
+    color: #936b1c;
+    font-size: 21px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 .vertical-line {
   border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.time-range {
+    color: #936b1c;
 }
